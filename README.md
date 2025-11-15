@@ -77,9 +77,9 @@ The goal is to help users become more aware of how their wording affects others 
 
 ---
 Here's our results look like :
-[image1]: (https://github.com/SrijaniBasu/GenerativeAI_EmotionTrainerApp/blob/main/Result-images-0.jpg)
-[image2]: (https://github.com/SrijaniBasu/GenerativeAI_EmotionTrainerApp/blob/main/Result-images-1.jpg)
-[image3]: (https://github.com/SrijaniBasu/GenerativeAI_EmotionTrainerApp/blob/main/Result-images-2.jpg)
+- [image1]: (https://github.com/SrijaniBasu/GenerativeAI_EmotionTrainerApp/blob/main/Result-images-0.jpg)
+- [image2]: (https://github.com/SrijaniBasu/GenerativeAI_EmotionTrainerApp/blob/main/Result-images-1.jpg)
+- [image3]: (https://github.com/SrijaniBasu/GenerativeAI_EmotionTrainerApp/blob/main/Result-images-2.jpg)
 
 ## 🚀 Getting Started
 
