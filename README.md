@@ -88,4 +88,69 @@ Here's our results look like :<br>
 ```bash
 git clone https://github.com/SrijaniBasu/GenerativeAI_EmotionTrainerApp.git
 cd visual-empathy-trainer
+```
+### 2. Create and Activate a Virtual Environment (Recommended)
+
+```bash
+python -m venv .venv
+
+# Windows
+.venv\Scripts\activate
+
+# macOS / Linux
+source .venv/bin/activate
+```
+
+### 3. Configure API Keys
+
+The application requires:
+
+- An **OpenAI API key** (`OPENAI_API_KEY`)  
+- A **Replicate API token** (`REPLICATE_API_TOKEN`)
+
+Set these as environment variables or in a `.env` file (which should be listed in `.gitignore`):
+
+
+
+### 4.  Run the Streamlit Application
+
+```bash
+streamlit run app.py
+```
+Then open the URL shown in the terminal (usually `http://localhost:8501`) in your browser.
+
+---
+
+
+### 5. Evaluation Summary
+
+The system was evaluated using:
+
+- **Functional testing**  
+  - Verified that each emotion triggers appropriate scenario and image generation.  
+  - Confirmed that the evaluation pipeline returns structured scores and explanations.  
+  - Tested full end-to-end flows (emotion selection → scenario+image → response → feedback).
+
+- **Informal user testing**  
+  - Peers interacted with the app for multiple emotions and scenarios.  
+  - Supportive, validating responses generally received higher scores across all three dimensions.  
+  - Dismissive or harsh responses received lower scores, especially for Validation and Tone.  
+  - Users reported that the feedback helped them notice how small wording changes affect perceived empathy.
+
+Detailed examples and figures are included in the final written report (Evaluation & Results section).
+
+---
+
+### 6. Limitations and Notes
+
+- This is a **prototype for educational purposes**, not a clinical or therapeutic tool.  
+- Feedback is generated entirely by large language models and may occasionally be biased or inaccurate.  
+- The current version does **not** implement persistent user accounts or long-term data storage. If logs or analytics are added in future versions, privacy and consent must be carefully addressed.  
+- The application depends on external APIs (OpenAI, Replicate), so network or service latency can affect response time.
+
+---
+
+### 7. Acknowledgements
+
+This repository, **GenerativeAI_EmotionTrainerApp**, was developed as part of the **CS 6030 – Generative AI** course at **Western Michigan University**.
 
